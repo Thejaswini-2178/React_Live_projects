@@ -5,7 +5,6 @@ import React, { Component } from 'react'
     return (
       <div>
 {/* end best section */}
-{/* rent section */}
 <section className="rent_section layout_padding">
   <div className="container">
     <div className="rent_container">
