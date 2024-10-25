@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 
- class Section2 extends Component {
-  render() {
-    return (
-      <div>
-{/* end about section */}
+export class Bestsection extends Component {
+    render() {
+        return (
+            <div>
 {/* best section */}
 <section className="best_section">
   <div className="container">
@@ -25,9 +24,11 @@ import React, { Component } from 'react'
     </div>
   </div>
 </section>
+{/* end best section */}
+ 
+            </div>
+        )
+    }
+}
 
-      </div>
-    )
-  }
-} 
-export default Section2
+export default Bestsection
