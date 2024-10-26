@@ -1,9 +1,5 @@
 {
-<<<<<<<< HEAD:rentedcar/package.json
-  "name": "rentedcar",
-========
-  "name": "template4",
->>>>>>>> 5e747d22ec08341ef3ce9ab53f0f8055a58fd035:Template-4/template4/package.json
+  "name": "rentedcarsfor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
