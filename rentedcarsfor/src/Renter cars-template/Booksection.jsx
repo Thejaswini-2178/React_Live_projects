@@ -45,7 +45,6 @@ export class Booksection extends Component {
                         <img src="images/book-car.png" alt />
                     </div>
                 </section>
-
             </div>
         )
     }
