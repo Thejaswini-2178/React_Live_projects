@@ -25,7 +25,6 @@ export class Bestsection extends Component {
   </div>
 </section>
 {/* end best section */}
- 
             </div>
         )
     }
