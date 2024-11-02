@@ -77,8 +77,6 @@ export class Rentsection extends Component {
                     </div>
                 </section>
                 {/* end rent section */}
-
-
             </div>
         )
     }
