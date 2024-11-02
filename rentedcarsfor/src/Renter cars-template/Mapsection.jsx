@@ -15,7 +15,6 @@ export class Mapsection extends Component {
                     {/* end map section */}
                 </section>
                 {/* end map section */}
-
             </div>
         )
     }
