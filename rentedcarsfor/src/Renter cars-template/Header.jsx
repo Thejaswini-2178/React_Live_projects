@@ -100,7 +100,6 @@ export class Header extends Component {
                     </section>
                     {/* end slider section */}
                 </div>
-
             </div>
         )
     }
