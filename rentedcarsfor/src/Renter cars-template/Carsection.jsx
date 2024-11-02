@@ -68,7 +68,6 @@ export class Carsection extends Component {
                     </div>
                 </section>
                 {/* end car section */}
-
             </div>
         )
     }
