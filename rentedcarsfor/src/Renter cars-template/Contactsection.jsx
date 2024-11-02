@@ -93,7 +93,6 @@ export class Contactsection extends Component {
                     </div>
                 </section>
                 {/* end contact section */}
-
             </div>
         )
     }
