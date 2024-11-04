@@ -1,0 +1,58 @@
+{
+    "hero_area": {
+      "header_section": {
+        "brand": {
+          "text": "Rent4u",
+          "href": "index.html"
+        },
+        "user_option": {
+          "login_link": {
+            "text": "Login",
+            "href": "#"
+          }
+        },
+        "menu_button": {
+          "action": "openNav",
+          "spans": ["s-1", "s-2", "s-3"]
+        },
+        "overlay_links": [
+          { "text": "Home", "href": "index.html" },
+          { "text": "About", "href": "about.html" },
+          { "text": "Cars", "href": "car.html" },
+          { "text": "Blog", "href": "blog.html" },
+          { "text": "Contact Us", "href": "contact.html" },
+          { "text": "Login", "href": "#" }
+        ]
+      },
+      "slider_section": {
+        "image": {
+          "src": "images/hero-img.jpg",
+          "alt": ""
+        },
+        "carousel": {
+          "items": [
+            {
+              "header_text": "Rent Car Experts Service",
+              "button_text": "Contact Us",
+              "button_link": "#"
+            },
+            {
+              "header_text": "Rent Car Experts Service",
+              "button_text": "Contact Us",
+              "button_link": "#"
+            },
+            {
+              "header_text": "Rent Car Experts Service",
+              "button_text": "Contact Us",
+              "button_link": "#"
+            }
+          ],
+          "controls": {
+            "previous": "Previous",
+            "next": "Next"
+          }
+        }
+      }
+    }
+  }
+  

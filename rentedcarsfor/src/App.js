@@ -1,16 +1,16 @@
 import './App.css';
 import Aboutsection from './Renter cars-template/Aboutsection';
 import Bestsection from './Renter cars-template/Bestsection';
-import BlogSection from './Renter cars-template/BlogSection';
-import Booksection from './Renter cars-template/Booksection';
-import Carsection from './Renter cars-template/Carsection';
-import Clintsection from './Renter cars-template/Clintsection';
-import Contactsection from './Renter cars-template/Contactsection';
-import Contactus from './Renter cars-template/Contactus';
-import Footer from './Renter cars-template/Footer';
-import Header from './Renter cars-template/Header';
-import Mapsection from './Renter cars-template/Mapsection';
-import Rentsection from './Renter cars-template/Rentsection';
+import BlogSection from './Renter cars-template/7-Blog/BlogSection';
+import Booksection from './Renter cars-template/2-Book/Booksection';
+import Carsection from './Renter cars-template/3-Car/Carsection';
+import Clintsection from './Renter cars-template/9-Clint/Clintsection';
+import Contactsection from './Renter cars-template/10-Contact/Contactsection';
+import Contactus from './Renter cars-template/8-Contact/Contactus';
+import Footer from './Renter cars-template/12-Footer/Footer';
+import Header from './Renter cars-template/1-Header/Header';
+import Mapsection from './Renter cars-template/11-Map/Mapsection';
+import Rentsection from './Renter cars-template/6-Rent/Rentsection';
 
 function App() {
   return (
@@ -27,7 +27,6 @@ function App() {
        <Contactsection/>
        <Mapsection/>
        <Footer/>
-       
     </div>
   );
 }
