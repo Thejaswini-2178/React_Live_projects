@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import headerData from './headerData.json';
 
+import headerData from './headerData.json';
 class Header extends Component {
   render() {
     const { header } = headerData;
@@ -13,7 +13,6 @@ class Header extends Component {
             <a className="navbar-brand" href={brand.href}>
               <span>{brand.text}</span>
             </a>
-
             <div className="navbar-collapse">
               <div className="user_option">
                 <a href={userOption.href}>{userOption.text}</a>
@@ -39,5 +38,4 @@ class Header extends Component {
     );
   }
 }
-
 export default Header;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import 
 
 class SliderSection extends Component {
     render() {
@@ -14,9 +15,7 @@ class SliderSection extends Component {
                                 <div className="carousel-item active">
                                     <div className="detail-box">
                                         <h1>
-                                            Rent Car <br />
-                                            Experts <br />
-                                            Service
+                                           {SliderSection.head1.h1} 
                                         </h1>
                                         <a href>
                                             Contact Us
@@ -49,10 +48,10 @@ class SliderSection extends Component {
                                 </div>
                             </div>
                             <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span className="sr-only">Previous</span>
+                                <span className="sr-only">{SliderSection.a3}</span>
                             </a>
                             <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span className="sr-only">Next</span>
+                                <span className="sr-only">{SliderSection.a4}</span>
                             </a>
                         </div>
                     </div>

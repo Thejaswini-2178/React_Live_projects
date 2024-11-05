@@ -4,7 +4,6 @@ export class Booksection extends Component {
     render() {
         return (
             <div>
-                {/* book section */}
                 <section className="book_section">
                     <div className="form_container">
                         <form action>
@@ -49,5 +48,6 @@ export class Booksection extends Component {
         )
     }
 }
+
 
 export default Booksection
