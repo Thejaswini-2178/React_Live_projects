@@ -8,15 +8,17 @@ import Contactus from './Renter cars-template/8-Contact/Contactus';
 import Footer from './Renter cars-template/12-Footer/Footer';
 import Mapsection from './Renter cars-template/11-Map/Mapsection';
 import Rentsection from './Renter cars-template/6-Rent/Rentsection';
-import Header from './Renter cars-template/1-Header/Header';
 import Aboutsection from './Renter cars-template/4-ABOUT/Aboutsection';
 import Bestsection from './Renter cars-template/5-Best/Bestsection';
+import Header from './Renter cars-template/1-Head/Header';
+import SliderSection from './Renter cars-template/1.1 Slider/SliderSection';
 
 
 function App() {
   return (
     <div className="App">
        <Header/>
+       <SliderSection/>
        <Booksection/>
        <Carsection/>
        <Aboutsection/>
