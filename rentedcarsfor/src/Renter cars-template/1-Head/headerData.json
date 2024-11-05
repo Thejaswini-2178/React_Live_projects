@@ -1,0 +1,36 @@
+{
+    "header": {
+      "className": "header_section",
+      "container": {
+        "className": "container-fluid",
+        "navbar": {
+          "className": "navbar navbar-expand-lg custom_nav-container",
+          "brand": {
+            "href": "index.html",
+            "text": "Rent4u"
+          },
+          "userOption": {
+            "href": "#",
+            "text": "Login"
+          },
+          "menuButton": {
+            "onClick": "openNav",
+            "spans": ["s-1", "s-2", "s-3"]
+          },
+          "overlay": {
+            "id": "myNav",
+            "className": "overlay",
+            "links": [
+              { "href": "index.html", "text": "Home" },
+              { "href": "about.html", "text": "About" },
+              { "href": "car.html", "text": "Cars" },
+              { "href": "blog.html", "text": "Blog" },
+              { "href": "contact.html", "text": "Contact Us" },
+              { "href": "#", "text": "Login" }
+            ]
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,46 +1,43 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import headerData from './headerData.json';
 
- class Header extends Component {
+class Header extends Component {
   render() {
+    const { header } = headerData;
+    const { brand, userOption, menuButton, overlay } = header.container.navbar;
+
     return (
-        <header class="header_section">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container">
-            <a class="navbar-brand" href="index.html">
-              <span>
-                Rent4u
-              </span>
+      <header className={header.className}>
+        <div className={header.container.className}>
+          <nav className={header.container.navbar.className}>
+            <a className="navbar-brand" href={brand.href}>
+              <span>{brand.text}</span>
             </a>
-  
-            <div class="navbar-collapse" id="">
-              <div class="user_option">
-                <a href="">
-                  Login
-                </a>
+
+            <div className="navbar-collapse">
+              <div className="user_option">
+                <a href={userOption.href}>{userOption.text}</a>
               </div>
-              <div class="custom_menu-btn">
-                <button onclick="openNav()">
-                  <span class="s-1"> </span>
-                  <span class="s-2"> </span>
-                  <span class="s-3"> </span>
+              <div className="custom_menu-btn">
+                <button onClick={() => window[menuButton.onClick]()}>
+                  {menuButton.spans.map((spanClass, index) => (
+                    <span key={index} className={spanClass}> </span>
+                  ))}
                 </button>
               </div>
-              <div id="myNav" class="overlay">
-                <div class="overlay-content">
-                  <a href="index.html">Home</a>
-                  <a href="about.html">About</a>
-                  <a href="car.html">Cars</a>
-                  <a href="blog.html">Blog</a>
-                  <a href="contact.html">Contact Us</a>
-                  <a href="#">Login</a>
+              <div id={overlay.id} className={overlay.className}>
+                <div className="overlay-content">
+                  {overlay.links.map((link, index) => (
+                    <a key={index} href={link.href}>{link.text}</a>
+                  ))}
                 </div>
               </div>
             </div>
           </nav>
         </div>
       </header>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
