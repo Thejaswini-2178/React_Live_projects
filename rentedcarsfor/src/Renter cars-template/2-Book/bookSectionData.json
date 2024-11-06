@@ -1,0 +1,54 @@
+{
+    "bookSection": {
+        "className": "book_section",
+        "formContainer": {
+            "formAction": "",
+            "formRows": [
+                {
+                    "colClass": "col-md-6",
+                    "label": "Pick Up Location",
+                    "input": {
+                        "type": "text",
+                        "className": "form-control",
+                        "placeholder": "abc"
+                    }
+                },
+                {
+                    "colClass": "col-md-6",
+                    "label": "Drop Location",
+                    "input": {
+                        "type": "text",
+                        "className": "form-control",
+                        "placeholder": "abc"
+                    }
+                },
+                {
+                    "colClass": "col-md-6",
+                    "label": "Pick Up Date",
+                    "input": {
+                        "type": "text",
+                        "className": "form-control",
+                        "placeholder": "07/09/2020"
+                    }
+                },
+                {
+                    "colClass": "col-md-6",
+                    "label": "Return Date",
+                    "input": {
+                        "type": "text",
+                        "className": "form-control",
+                        "placeholder": "07/09/2020"
+                    }
+                }
+            ],
+            "button": {
+                "text": "Search",
+                "type": "submit"
+            }
+        },
+        "imgBox": {
+            "src": "images/book-car.png",
+            "alt": ""
+        }
+    }
+}
