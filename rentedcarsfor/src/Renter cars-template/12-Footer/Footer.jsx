@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import footerData from './footerData.json';  // assuming the JSON file is named footerData.json
 
 export class Footer extends Component {
     render() {
         return (
             <div>
                 {/* footer section */}
-
-                <footer class="container-fluid footer_section">
+                <footer className="container-fluid footer_section">
                     <p>
-                        Copyright &copy; 2020 All Rights Reserved. Design by
-                        <a href="https://html.design/">Free Html Templates</a>
+                        {footerData.footer.content}
+                        <a href={footerData.footer.link.href}>{footerData.footer.link.text}</a>
                     </p>
                 </footer>
                 {/* footer section */}
@@ -19,8 +19,11 @@ export class Footer extends Component {
                 </script>
                 <script src="js/custom.js"></script>
             </div>
-        )
+        );
     }
 }
 
-export default Footer
+export default Footer;
+
+
+
