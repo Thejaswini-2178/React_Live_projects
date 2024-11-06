@@ -1,0 +1,17 @@
+{
+    "bestSection": {
+        "className": "best_section",
+        "container": {
+            "bookNow": {
+                "detail": {
+                    "title": "Our Best Cars",
+                    "description": "It is a long established fact that a reader will be distracted by the"
+                },
+                "button": {
+                    "text": "Book Now",
+                    "href": "#"
+                }
+            }
+        }
+    }
+}
