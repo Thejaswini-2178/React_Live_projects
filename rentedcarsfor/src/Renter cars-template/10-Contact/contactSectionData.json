@@ -1,0 +1,63 @@
+{
+    "contactSection": {
+        "heading": {
+            "title": "Request A call back"
+        },
+        "form": {
+            "fields": [
+                {
+                    "type": "text",
+                    "id": "inputName4",
+                    "placeholder": "Name"
+                },
+                {
+                    "type": "text",
+                    "id": "inputSubject4",
+                    "placeholder": "Phone"
+                },
+                {
+                    "type": "email",
+                    "id": "inputEmail4",
+                    "placeholder": "Email id"
+                },
+                {
+                    "type": "text",
+                    "id": "inputMessage",
+                    "placeholder": "Message"
+                }
+            ]
+        },
+        "contactItems": [
+            {
+                "icon": "images/location.png",
+                "info": "Loram Ipusum ari lo elisant na"
+            },
+            {
+                "icon": "images/call.png",
+                "info": "(+12 1234456789)"
+            },
+            {
+                "icon": "images/mail.png",
+                "info": "demo@gmail.com"
+            }
+        ],
+        "socialLinks": [
+            {
+                "icon": "images/fb.png",
+                "link": "#"
+            },
+            {
+                "icon": "images/twitter.png",
+                "link": "#"
+            },
+            {
+                "icon": "images/linkedin.png",
+                "link": "#"
+            },
+            {
+                "icon": "images/insta.png",
+                "link": "#"
+            }
+        ]
+    }
+}
