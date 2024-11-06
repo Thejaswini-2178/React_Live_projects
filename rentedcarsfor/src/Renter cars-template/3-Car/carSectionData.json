@@ -1,0 +1,49 @@
+{
+    "carSection": {
+        "className": "car_section layout_padding2-top layout_padding-bottom",
+        "container": {
+            "heading": {
+                "title": "Better Way For Find Your Favourite Cars",
+                "description": "It is a long established fact that a reader will be distracted by the readable"
+            },
+            "carContainer": [
+                {
+                    "image": {
+                        "src": "images/c-1.png",
+                        "alt": ""
+                    },
+                    "details": {
+                        "title": "Choose Your Car",
+                        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when",
+                        "linkText": "Read More",
+                        "linkHref": "#"
+                    }
+                },
+                {
+                    "image": {
+                        "src": "images/c-2.png",
+                        "alt": ""
+                    },
+                    "details": {
+                        "title": "Get Your Car",
+                        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when",
+                        "linkText": "Read More",
+                        "linkHref": "#"
+                    }
+                },
+                {
+                    "image": {
+                        "src": "images/c-3.png",
+                        "alt": ""
+                    },
+                    "details": {
+                        "title": "Contact Your Dealer",
+                        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when",
+                        "linkText": "Read More",
+                        "linkHref": "#"
+                    }
+                }
+            ]
+        }
+    }
+}
