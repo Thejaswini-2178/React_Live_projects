@@ -1,23 +1,28 @@
-import React, { Component } from 'react'
+import React from 'react';
+import mapData from './mapSectionData.json'; // Assuming the JSON file is in the same directory
 
-export class Mapsection extends Component {
-    render() {
-        return (
-            <div>
-                {/* map section */}
-                <section className="map_section">
-                    {/* map section */}
-                    <div className="map_container">
-                        <div className="map-responsive">
-                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width={600} height={300} frameBorder={0} style={{ border: 0, width: '100%', height: '100%' }} allowFullScreen />
-                        </div>
+const Mapsection = () => {
+    const { mapSection } = mapData;
+    const { title, mapEmbedLink, width, height } = mapSection;
+
+    return (
+        <div>
+            <section className="map_section">
+                <div className="map_container">
+                    <div className="map-responsive">
+                        <iframe 
+                            src={mapEmbedLink} 
+                            width={width} 
+                            height={height} 
+                            frameBorder={0} 
+                            style={{ border: 0, width: '100%', height: '100%' }} 
+                            allowFullScreen
+                        />
                     </div>
-                    {/* end map section */}
-                </section>
-                {/* end map section */}
-            </div>
-        )
-    }
+                </div>
+            </section>
+        </div>
+    );
 }
 
-export default Mapsection
+export default Mapsection;
