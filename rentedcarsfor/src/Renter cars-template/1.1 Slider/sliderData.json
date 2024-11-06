@@ -1,0 +1,33 @@
+{
+    "sliderSection": {
+        "className": "slider_section position-relative",
+        "sliderContainer": {
+            "imgBox": {
+                "src": "images/hero-img.jpg",
+                "alt": ""
+            },
+            "detailContainer": {
+                "carousel": {
+                    "id": "carouselExampleControls",
+                    "slides": [
+                        {
+                            "title": "Rent Car\nExperts\nService",
+                            "linkText": "Contact Us",
+                            "linkHref": "#"
+                        },
+                        {
+                            "title": "Rent Car\nExperts\nService",
+                            "linkText": "Contact Us",
+                            "linkHref": "#"
+                        },
+                        {
+                            "title": "Rent Car\nExperts\nService",
+                            "linkText": "Contact Us",
+                            "linkHref": "#"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
