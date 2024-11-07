@@ -1,0 +1,38 @@
+{
+    "clientSection": {
+        "className": "client_section layout_padding",
+        "heading": {
+            "title": "What Is say Customer",
+            "description": "It is a long established fact that a reader will be distracted by the"
+        },
+        "testimonials": [
+            {
+                "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.",
+                "images": {
+                    "img1": "images/client-1.png",
+                    "img2": "images/client-1-white.png"
+                },
+                "name": "Established",
+                "description": "by the readable"
+            },
+            {
+                "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.",
+                "images": {
+                    "img1": "images/client-2.png",
+                    "img2": "images/client-2-white.png"
+                },
+                "name": "Blished",
+                "description": "by the readable"
+            },
+            {
+                "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.",
+                "images": {
+                    "img1": "images/client-1.png",
+                    "img2": "images/client-1-white.png"
+                },
+                "name": "Establi",
+                "description": "by the readable"
+            }
+        ]
+    }
+}
