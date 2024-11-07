@@ -1,0 +1,39 @@
+{
+    "usSection": {
+        "className": "us_section",
+        "heading": {
+            "title": "Why choose Us",
+            "description": "It is a long established fact that a reader will be distracted by the"
+        },
+        "contentBoxes": [
+            {
+                "image": {
+                    "src": "images/u-1.png",
+                    "alt": "Low Rent"
+                },
+                "title": "Low Rent"
+            },
+            {
+                "image": {
+                    "src": "images/u-2.png",
+                    "alt": "Fast Car"
+                },
+                "title": "Fast Car"
+            },
+            {
+                "image": {
+                    "src": "images/u-3.png",
+                    "alt": "Safe Car"
+                },
+                "title": "Safe Car"
+            },
+            {
+                "image": {
+                    "src": "images/u-4.png",
+                    "alt": "Quick Support"
+                },
+                "title": "Quick Support"
+            }
+        ]
+    }
+}
