@@ -1,75 +1,39 @@
-import React, { Component } from 'react'
+import React from 'react';
+import data from './contactUsData.json';
 
-export class Contactus extends Component {
-    render() {
-        return (
-            <div>
-                {/* us section */}
-                <section className="us_section">
-                    <div className="container">
-                        <div className="heading_container">
-                            <h2>
-                                Why choose Us
-                            </h2>
-                            <p>
-                                It is a long established fact that a reader will be distracted by the
-                            </p>
-                        </div>
-                    </div>
-                    <div className="us_container layout_padding2">
-                        <div className="content_box">
-                            <div className="box">
-                                <div className="img-box">
-                                    <img src="images/u-1.png" alt />
-                                </div>
-                                <div className="detail-box">
-                                    <h5>
-                                        Low Rent
-                                    </h5>
-                                </div>
-                            </div>
-                            <div className="box">
-                                <div className="img-box">
-                                    <img src="images/u-2.png" alt />
-                                </div>
-                                <div className="detail-box">
-                                    <h5>
-                                        Fast Car
-                                    </h5>
-                                </div>
-                            </div>
-                            <div className="box">
-                                <div className="img-box">
-                                    <img src="images/u-3.png" alt />
-                                </div>
-                                <div className="detail-box">
-                                    <h5>
-                                        Safe Car
-                                    </h5>
-                                </div>
-                            </div>
-                            <div className="box">
-                                <div className="img-box">
-                                    <img src="images/u-4.png" alt />
-                                </div>
-                                <div className="detail-box">
-                                    <h5>
-                                        Quick Support
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="btn-box">
-                            <a href>
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </section>
-                {/* end us section */}
-            </div>
-        )
-    }
-}
+const Contactus = () => {
+    const { usSection } = data;
+    const { heading, contentBoxes } = usSection;
 
-export default Contactus
+    return (
+        <div>
+            <section className={usSection.className}>
+                <div className="container">
+                    <div className="heading_container">
+                        <h2>{heading.title}</h2>
+                        <p>{heading.description}</p>
+                    </div>
+                </div>
+                <div className="us_container layout_padding2">
+                    <div className="content_box">
+                        {contentBoxes.map((box, index) => (
+                            <div key={index} className="box">
+                                <div className="img-box">
+                                    <img src={box.image.src} alt={box.image.alt} />
+                                </div>
+                                <div className="detail-box">
+                                    <h5>{box.title}</h5>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <div className="btn-box">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+};
+
+export default Contactus;
