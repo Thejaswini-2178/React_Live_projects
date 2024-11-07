@@ -1,0 +1,49 @@
+{
+    "blogSection": {
+        "className": "blog_section layout_padding",
+        "container": {
+            "heading": {
+                "title": "Our Latest Blog",
+                "description": "It is a long established fact that a reader will be distracted by the"
+            },
+            "blogs": [
+                {
+                    "date": "04 Nov 2019",
+                    "image": {
+                        "src": "images/b-1.jpg",
+                        "alt": "Motercars"
+                    },
+                    "title": "Vintage",
+                    "description": "It is a long established fact that a reader will be distracted by the readable The point of using Lorem"
+                },
+                {
+                    "date": "04 Nov 2019",
+                    "image": {
+                        "src": "images/b-2.jpg",
+                        "alt": "Motercars"
+                    },
+                    "title": "Steering wheels",
+                    "description": "It is a long established fact that a reader will be distracted by the readable The point of using Lorem"
+                },
+                {
+                    "date": "04 Nov 2019",
+                    "image": {
+                        "src": "images/b-3.jpg",
+                        "alt": "Motercars"
+                    },
+                    "title": "Buick Car",
+                    "description": "It is a long established fact that a reader will be distracted by the readable The point of using Lorem"
+                },
+                {
+                    "date": "04 Nov 2019",
+                    "image": {
+                        "src": "images/b-2.jpg",
+                        "alt": "Motercars"
+                    },
+                    "title": "Steering wheels",
+                    "description": "It is a long established fact that a reader will be distracted by the readable The point of using Lorem"
+                }
+            ]
+        }
+    }
+}
