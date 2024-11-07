@@ -12,6 +12,7 @@ export class Footer extends Component {
                         <a href={footerData.footer.link.href}>{footerData.footer.link.text}</a>
                     </p>
                 </footer>
+                
                 {/* footer section */}
                 <script src="js/jquery-3.4.1.min.js"></script>
                 <script src="js/bootstrap.js"></script>
